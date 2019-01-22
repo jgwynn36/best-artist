@@ -5,6 +5,7 @@ $(document).ready(function () {
 
     //Display buttons
     function renderButtons() {
+        $("#buttons-view").empty();
         for (var i = 0; i < artists.length; i++) {
             var buttons = $("<button>");
             buttons.addClass("artist-btn");
@@ -14,6 +15,7 @@ $(document).ready(function () {
         }
     }
 
+    //Display GIF
     function displayArtistInfo() {
         var artist = $(this).attr('data-name');
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + artist + "&api_key=UqOHspQHffeUvko8YWXHGNx0rFReqXiu&limit=10";
@@ -52,13 +54,23 @@ $(document).ready(function () {
 
     //Add New artist to array
     $("#addGif").on("click", function (event) {
-        event.preventDefault();
+        // event.preventDefault();
         var artist = $("#artist-input").val().trim();
         artists.push(artist);
         renderButtons();
     });
 
-    $(document).on("click", ".artist-btn", displayArtistInfo);
-
     renderButtons();
+    $(document).on("click", ".artist-btn", displayArtistInfo);
+    $(document).on("click", ".image", function () {
+        var state = $(this).attr('data-state');
+        if (state == 'still') {
+            $(this).attr('src', $(this).data('animate'));
+            $(this).attr('data-state', 'animate');
+        } else {
+            $(this).attr('src', $(this).data('still'));
+            $(this).attr('data-state', 'still');
+        }
+
+    })
 })
