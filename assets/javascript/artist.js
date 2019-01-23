@@ -54,7 +54,7 @@ $(document).ready(function () {
 
     //Add New artist to array
     $("#addGif").on("click", function (event) {
-        //event.preventDefault();
+        event.preventDefault();
         var artist = $("#artist-input").val().trim();
         artists.push(artist);
         renderButtons();
