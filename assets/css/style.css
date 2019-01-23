@@ -1,0 +1,19 @@
+.gifDiv{
+    margin: 10px;
+    display: inline-block;
+    color: antiquewhite; 
+    
+}
+.artist-btn {
+    text-align: center; 
+    margin: 10px; 
+}
+.jumbotron {
+    background: url("../images/music.jpeg"); 
+    width: 100%;
+}
+.container {
+    background-color: black; 
+}
+
+
