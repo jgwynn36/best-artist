@@ -1,1 +1,14 @@
+.gifDiv{
+    margin: 10px;
+    display: inline-block;
+    
+}
+.artist-btn {
+    text-align: center; 
+    margin: 10px; 
+}
+.body {
+    background-image: "images/best.jpeg"; 
+}
+
 
