@@ -16,8 +16,8 @@ Enter an artist name or select one of the pre populated names click on the name 
 
 ## Technology Used
 
-*HTML
-*CSS
-*JavaScript
-*jQuery
-*GIPHY API
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* GIPHY API
