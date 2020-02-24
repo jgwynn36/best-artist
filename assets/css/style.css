@@ -9,10 +9,10 @@
     margin: 10px; 
 }
 .jumbotron {
-    background: url("../images/bestartist.jpeg"); 
+    background: url("../images/bestartist.jpeg")
 }
 .container {
-    background: url("../images/musicnote.jpeg.jpeg")
+    background: url("../images/musicnote.jpeg")
 }
 
 
