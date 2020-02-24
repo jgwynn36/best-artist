@@ -1,19 +1,20 @@
 .gifDiv{
-    margin: 10px;
     display: inline-block;
-    color: antiquewhite; 
-    
+    color: black; 
+    margin: 20px;
 }
 .artist-btn {
-    text-align: center; 
-    margin: 10px; 
+    margin: 30px; 
 }
 .jumbotron {
-    background: url("../images/musicBackground.jpeg");
-    width: auto;
+    background: url("../images/musicnote.jpeg");
+    color: white;
 }
 .container-fluid {
-    background: url("../images/bestartist.jpeg"); 
+    background-color:rgb(127, 228, 228);
+}
+#artist-form {
+    color: white;
 }
 
 
