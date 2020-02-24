@@ -4,7 +4,7 @@ This is the 6th assignment for my coding boot camp.
 
 In this assignment, I used GIPHY API to make a dynamic website that allows a user to populate different gifs based on the search name.  
 
-This site is hosted at https://jgwynn36.github.io/best-artist/
+This site is hosted at https://jgwynn36.github.io/best-artist-gifs/
 
 ## Getting Started
 
