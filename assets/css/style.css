@@ -9,11 +9,12 @@
     margin: 10px; 
 }
 .jumbotron {
-    background: url("../images/bestartist.jpeg");
+    background: url("../images/musicBackground.jpeg");
     width: auto;
 }
 .container {
-    background: url("../images/musicnote.jpeg")
+    background: url("../images/bestartist.jpeg"); 
+    width: auto;
 }
 
 
