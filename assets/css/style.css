@@ -9,7 +9,8 @@
     margin: 10px; 
 }
 .jumbotron {
-    background: url("../images/bestartist.jpeg")
+    background: url("../images/bestartist.jpeg");
+    width: auto;
 }
 .container {
     background: url("../images/musicnote.jpeg")
