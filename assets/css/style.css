@@ -12,9 +12,8 @@
     background: url("../images/musicBackground.jpeg");
     width: auto;
 }
-#gifsView {
+.container-fluid {
     background: url("../images/bestartist.jpeg"); 
-    width: auto;
 }
 
 
