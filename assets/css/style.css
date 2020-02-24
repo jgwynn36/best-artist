@@ -10,11 +10,9 @@
 }
 .jumbotron {
     background: url("../images/bestartist.jpeg"); 
-    width: 100%;
 }
 .container {
-    background: url("../images/musicnote.jpeg.jpeg"); 
-    background-color: black; 
+    background: url("../images/musicnote.jpeg.jpeg")
 }
 
 
